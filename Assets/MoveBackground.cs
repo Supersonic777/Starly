@@ -25,6 +25,6 @@ public class MoveBackground : MonoBehaviour
     {
         back_pos -= speed * Time.deltaTime;
         back_pos = Mathf.Repeat(back_pos, back_Size);
-        back_Tranform.position = new Vector3(back_pos, 0, 0);
+        back_Tranform.position = new Vector3(back_pos-4, 0, 0);
     }
 }
