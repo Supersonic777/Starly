@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
+
     public float starlySpeed;
+    public int starlyHealth;
+    private float healthInFloat;
     private bool downPressed;
     private bool upPressed;
     private bool downToched;
@@ -12,7 +15,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+      healthInFloat = starlyHealth/100;
     }
 
     // Update is called once per frame
