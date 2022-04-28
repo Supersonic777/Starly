@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637866791341031718
+      ticks: 637867739989540751
     m_Hash: 4086306028
   m_LockFileStatus:
     m_FilePath: C:/Projects/Unity Projects/STARLY/Starly/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637866791341219942
+      ticks: 637867739989683915
     m_Hash: 3266030487
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
