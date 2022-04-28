@@ -1,12 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
 
-    public float starlySpeed;
-    public int starlyHealth;
-    private float healthInFloat;
+    public float speed;
+    public float health;
+    public Image healthBar;
     private bool downPressed;
     private bool upPressed;
     private bool downToched;
@@ -15,19 +15,24 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      healthInFloat = starlyHealth/100;
+      health /= 100;
     }
 
     // Update is called once per frame
     void Update()
     {
+      if(health <= 0)
+      {
+        Destroy(gameObject);
+      }
+      healthBar.fillAmount=health;
       if(upToched != true)
       {
-        if(upPressed){gameObject.transform.position += Vector3.up * starlySpeed * Time.deltaTime;}
+        if(upPressed){gameObject.transform.position += Vector3.up * speed * Time.deltaTime;}
       }
       if(downToched != true)
       {
-        if(downPressed){gameObject.transform.position += Vector3.down * starlySpeed * Time.deltaTime;}
+        if(downPressed){gameObject.transform.position += Vector3.down * speed * Time.deltaTime;}
       }
     }
     public void OnButtonUp()

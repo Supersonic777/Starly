@@ -163,4 +163,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2.3
+  damage: 35
   timeToDestroy: 12

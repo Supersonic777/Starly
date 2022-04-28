@@ -5,13 +5,18 @@ using UnityEngine;
 public class MeteorController : MonoBehaviour
 {
     public float speed;
-    private float rotationSpeed;
+    public float damage;
     public float timeToDestroy = 10;
+    private float rotationSpeed;
+    private GameObject player;
+    
     // Start is called before the first frame update
     void Start()
     {
-        rotationSpeed = Random.Range(-20,20);
-        speed+=Random.Range(0,1);
+      damage /= 100; //получаем дробное число в диапазоне от 0.0 до 1.0 для адекватного взаимодействия с HealthBar
+      rotationSpeed = Random.Range(-20,20);
+      speed+=Random.Range(0,1);
+      player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
@@ -24,5 +29,13 @@ public class MeteorController : MonoBehaviour
     void Destroy()
     {
         Destroy(gameObject);
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+      if(collision.gameObject.tag == "Player")
+      {
+        player.GetComponent<PlayerController>().health -= damage;
+        Destroy(gameObject);
+      }
     }
 }
