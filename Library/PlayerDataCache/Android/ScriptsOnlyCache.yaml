@@ -3,8 +3,10 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - MeteorController
     - MeteorSpawner
-    - MoveBackground
+    - MoveBCG
     - PlayerController
+    - SpaceshipSpawner
+    - StarshipController
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -47,8 +49,16 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.UIFoldout
     Unity.RenderPipelines.Universal.Editor.dll:
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
+    Unity.RenderPipelines.Universal.Runtime.dll:
+    - UnityEngine.Experimental.Rendering.Universal.Light2D
+    - UnityEngine.Experimental.Rendering.Universal.Renderer2DData
+    - UnityEngine.Rendering.Universal.PostProcessData
+    - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -86,13 +96,21 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
     - Class: 61
+      Script: {instanceID: 0}
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 68
       Script: {instanceID: 0}
@@ -105,19 +123,17 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1588}
-    - Class: 114
       Script: {instanceID: 1590}
     - Class: 114
       Script: {instanceID: 1592}
     - Class: 114
       Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1602}
+      Script: {instanceID: 1596}
     - Class: 114
-      Script: {instanceID: 1732}
+      Script: {instanceID: 1604}
     - Class: 114
-      Script: {instanceID: 1866}
+      Script: {instanceID: 1734}
     - Class: 114
       Script: {instanceID: 2340}
     - Class: 114
@@ -131,6 +147,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3126}
     - Class: 114
+      Script: {instanceID: 3194}
+    - Class: 114
       Script: {instanceID: 3246}
     - Class: 114
       Script: {instanceID: 3262}
@@ -139,63 +157,71 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3350}
     - Class: 114
-      Script: {instanceID: 3472}
+      Script: {instanceID: 3474}
     - Class: 114
-      Script: {instanceID: 3588}
+      Script: {instanceID: 3590}
     - Class: 114
-      Script: {instanceID: 3892}
+      Script: {instanceID: 3894}
     - Class: 114
-      Script: {instanceID: 3996}
+      Script: {instanceID: 3998}
     - Class: 114
-      Script: {instanceID: 4306}
+      Script: {instanceID: 4308}
     - Class: 114
-      Script: {instanceID: 5106}
+      Script: {instanceID: 5062}
     - Class: 114
-      Script: {instanceID: 5122}
+      Script: {instanceID: 5108}
     - Class: 114
-      Script: {instanceID: 5182}
+      Script: {instanceID: 5124}
     - Class: 114
-      Script: {instanceID: 5376}
+      Script: {instanceID: 5184}
     - Class: 114
       Script: {instanceID: 5378}
     - Class: 114
-      Script: {instanceID: 5400}
+      Script: {instanceID: 5380}
     - Class: 114
-      Script: {instanceID: 5662}
+      Script: {instanceID: 5402}
     - Class: 114
-      Script: {instanceID: 5782}
+      Script: {instanceID: 5664}
     - Class: 114
-      Script: {instanceID: 5920}
+      Script: {instanceID: 5784}
     - Class: 114
-      Script: {instanceID: 5994}
+      Script: {instanceID: 5922}
     - Class: 114
-      Script: {instanceID: 6000}
+      Script: {instanceID: 5996}
     - Class: 114
-      Script: {instanceID: 6100}
+      Script: {instanceID: 6002}
     - Class: 114
-      Script: {instanceID: 6134}
+      Script: {instanceID: 6102}
     - Class: 114
-      Script: {instanceID: 6178}
+      Script: {instanceID: 6136}
     - Class: 114
-      Script: {instanceID: 6246}
+      Script: {instanceID: 6180}
     - Class: 114
-      Script: {instanceID: 6256}
+      Script: {instanceID: 6248}
     - Class: 114
-      Script: {instanceID: 6354}
+      Script: {instanceID: 6258}
     - Class: 114
-      Script: {instanceID: 6488}
+      Script: {instanceID: 6356}
     - Class: 114
-      Script: {instanceID: 6604}
+      Script: {instanceID: 6386}
     - Class: 114
-      Script: {instanceID: 6660}
+      Script: {instanceID: 6492}
     - Class: 114
-      Script: {instanceID: 6948}
+      Script: {instanceID: 6608}
     - Class: 114
-      Script: {instanceID: 7282}
+      Script: {instanceID: 6664}
     - Class: 114
-      Script: {instanceID: 7596}
+      Script: {instanceID: 6952}
     - Class: 114
-      Script: {instanceID: 7830}
+      Script: {instanceID: 7286}
+    - Class: 114
+      Script: {instanceID: 7600}
+    - Class: 114
+      Script: {instanceID: 7834}
+    - Class: 114
+      Script: {instanceID: 26364}
+    - Class: 114
+      Script: {instanceID: 29326}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -293,12 +319,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: DepthOfField
-  - hash:
-      serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoveBackground
   - hash:
       serializedVersion: 2
       Hash: 9f0d2156cb2876cc856eb040bfe23e76
@@ -503,6 +523,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HightScore
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -937,6 +963,12 @@ ScriptsOnlyBuild:
     className: SpriteShapeController
   - hash:
       serializedVersion: 2
+      Hash: 7caf16cec216423852fe53496029dc18
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoveBCG
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1145,6 +1177,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: d1ba6499fe03487a0edb53979384c96e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpaceshipSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: fb9a264a24cb528dcc04c9d1a0043d88
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StarshipController
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

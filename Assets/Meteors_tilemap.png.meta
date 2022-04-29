@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 3d54acb07053e524db54b3986aa9f7e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -518317096496201642
+    second: Meteors_tilemap_0
+  - first:
+      213: -3994692598365600550
+    second: Meteors_tilemap_1
+  - first:
+      213: 6534166086466900270
+    second: Meteors_tilemap_2
+  - first:
+      213: 8703467150864656304
+    second: Meteors_tilemap_3
+  - first:
+      213: -687690637954424098
+    second: Meteors_tilemap_4
+  - first:
+      213: 8136264558830912414
+    second: Meteors_tilemap_5
+  - first:
+      213: 5363111937065713074
+    second: Meteors_tilemap_6
+  - first:
+      213: 3253740133351070050
+    second: Meteors_tilemap_7
+  - first:
+      213: 2113608924245506717
+    second: Meteors_tilemap_8
+  - first:
+      213: 2625845314963051595
+    second: Meteors_tilemap_9
+  - first:
+      213: 5754818606298899437
+    second: Meteors_tilemap_10
+  - first:
+      213: -4521401779806246578
+    second: Meteors_tilemap_11
+  - first:
+      213: -873191148438850168
+    second: Meteors_tilemap_12
+  - first:
+      213: -717171806241695086
+    second: Meteors_tilemap_13
+  - first:
+      213: -1073672518833933588
+    second: Meteors_tilemap_14
+  - first:
+      213: 5610742442165117281
+    second: Meteors_tilemap_15
+  - first:
+      213: -3683581899465637187
+    second: Meteors_tilemap_16
+  - first:
+      213: 8946897668644162172
+    second: Meteors_tilemap_17
+  - first:
+      213: 1964933972218632891
+    second: Meteors_tilemap_18
+  - first:
+      213: 4261114765076745789
+    second: Meteors_tilemap_19
+  - first:
+      213: -7116105850866789793
+    second: Meteors_tilemap_20
+  - first:
+      213: -4427051504746029975
+    second: Meteors_tilemap_21
+  - first:
+      213: 4158191791724143070
+    second: Meteors_tilemap_22
+  - first:
+      213: 1260095507034095500
+    second: Meteors_tilemap_23
+  - first:
+      213: -3892687602902230357
+    second: Meteors_tilemap_24
+  - first:
+      213: 510408877689044485
+    second: Meteors_tilemap_25
+  - first:
+      213: 7468772774086908905
+    second: Meteors_tilemap_26
+  - first:
+      213: 4328719856499986828
+    second: Meteors_tilemap_27
+  - first:
+      213: -2468024633198874662
+    second: Meteors_tilemap_28
+  - first:
+      213: 4191424168906313669
+    second: Meteors_tilemap_29
+  - first:
+      213: -5459226122878010173
+    second: Meteors_tilemap_30
+  - first:
+      213: 3503452983306468749
+    second: Meteors_tilemap_31
+  - first:
+      213: -4403374036429339770
+    second: Meteors_tilemap_32
+  - first:
+      213: 3957303118595020773
+    second: Meteors_tilemap_33
+  - first:
+      213: 6985504266229147746
+    second: Meteors_tilemap_34
+  - first:
+      213: -6913979353621773640
+    second: Meteors_tilemap_35
+  - first:
+      213: 2733681522010584397
+    second: Meteors_tilemap_36
+  - first:
+      213: -4349167902415114497
+    second: Meteors_tilemap_37
+  - first:
+      213: -1273010483548524690
+    second: Meteors_tilemap_38
+  - first:
+      213: -1018632654868319774
+    second: Meteors_tilemap_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Meteors_tilemap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 441
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650055ec8519ec8f0800000000000000
+      internalID: -518317096496201642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 450
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4498f1f300098c0800000000000000
+      internalID: -3994692598365600550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 450
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e219347af650eaa50800000000000000
+      internalID: 6534166086466900270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 452
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7a191c24de8c870800000000000000
+      internalID: 8703467150864656304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 452
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed26d512205d476f0800000000000000
+      internalID: -687690637954424098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 374
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9387bb2281d9e070800000000000000
+      internalID: 8136264558830912414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_6
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 387
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd757b44e99d6a40800000000000000
+      internalID: 5363111937065713074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 390
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26992d7896b972d20800000000000000
+      internalID: 3253740133351070050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 386
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9abfb34e1c055d10800000000000000
+      internalID: 2113608924245506717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_9
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 386
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b441f71d660e07420800000000000000
+      internalID: 2625845314963051595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 316
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3214738093ddf40800000000000000
+      internalID: 5754818606298899437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 325
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4964d36901c041c0800000000000000
+      internalID: -4521401779806246578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 326
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8857940e64dc1e3f0800000000000000
+      internalID: -873191148438850168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 329
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ad90eba081c06f0800000000000000
+      internalID: -717171806241695086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_14
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 327
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2fdcd588c8911f0800000000000000
+      internalID: -1073672518833933588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 252
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161a57f268c5ddd40800000000000000
+      internalID: 5610742442165117281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_16
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 262
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2ca4567c941ecc0800000000000000
+      internalID: -3683581899465637187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 263
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a4e45e604c92c70800000000000000
+      internalID: 8946897668644162172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_18
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 268
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba503d7909d44b10800000000000000
+      internalID: 1964933972218632891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_19
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 261
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e429f6d45822b30800000000000000
+      internalID: 4261114765076745789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 188
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52910f6e638e3d90800000000000000
+      internalID: -7116105850866789793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_21
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 194
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c1149ac14ff82c0800000000000000
+      internalID: -4427051504746029975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_22
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 200
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1a9ad476dd4b930800000000000000
+      internalID: 4158191791724143070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_23
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 195
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f35d7ff22cc7110800000000000000
+      internalID: 1260095507034095500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_24
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 200
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa127fdf356af9c0800000000000000
+      internalID: -3892687602902230357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_25
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 125
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e7cd48b26551700800000000000000
+      internalID: 510408877689044485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_26
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 135
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb1f8b444966a760800000000000000
+      internalID: 7468772774086908905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_27
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 135
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c819cd266c3b21c30800000000000000
+      internalID: 4328719856499986828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_28
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 133
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf64491ca0dfbdd0800000000000000
+      internalID: -2468024633198874662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_29
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 135
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfc5a2131eea2a30800000000000000
+      internalID: 4191424168906313669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 62
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccb255f3ceec34b0800000000000000
+      internalID: -5459226122878010173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_31
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 76
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8db34d1de3ce9030800000000000000
+      internalID: 3503452983306468749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 72
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6838379d4a214e2c0800000000000000
+      internalID: -4403374036429339770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_33
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 65
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7d66c383a2be630800000000000000
+      internalID: 3957303118595020773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_34
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 72
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268609d8e1f71f060800000000000000
+      internalID: 6985504266229147746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b24df2e86c9c00a0800000000000000
+      internalID: -6913979353621773640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_36
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 6
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d457d705cdcffe520800000000000000
+      internalID: 2733681522010584397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_37
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 6
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe240ce5d6a4a3c0800000000000000
+      internalID: -4349167902415114497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_38
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 12
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fedbcb5bb555ee0800000000000000
+      internalID: -1273010483548524690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteors_tilemap_39
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 12
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1f5f15ff61dd1f0800000000000000
+      internalID: -1018632654868319774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
