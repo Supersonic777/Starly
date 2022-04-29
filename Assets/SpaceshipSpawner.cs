@@ -23,7 +23,7 @@ public class SpaceshipSpawner : MonoBehaviour
     }
     IEnumerator SpawnGO()
     {
-        yield return new WaitForSeconds(timeToSpawn += Random.Range(-5,20));
+        yield return new WaitForSeconds(timeToSpawn += Random.Range(-5,10));
         Instantiate(spaceshipList[Random.Range(0,spaceshipListLength-1)], spawnersList[Random.Range(0,spawnersListLength-1)].position, Quaternion.identity);
         Repeat();
     }
