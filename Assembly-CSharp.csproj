@@ -36,13 +36,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MeteorController.cs" />
-     <Compile Include="Assets\MeteorSpawner.cs" />
-     <Compile Include="Assets\PlayerController.cs" />
-     <Compile Include="Assets\HightScore.cs" />
-     <Compile Include="Assets\MoveBCG.cs" />
-     <Compile Include="Assets\SpaceshipSpawner.cs" />
-     <Compile Include="Assets\StarshipController.cs" />
+     <Compile Include="Assets\Scripts\MeteorController.cs" />
+     <Compile Include="Assets\Scripts\StarshipController.cs" />
+     <Compile Include="Assets\Scripts\MeteorSpawner.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\HightScore.cs" />
+     <Compile Include="Assets\Scripts\MoveBCG.cs" />
+     <Compile Include="Assets\Scripts\SpaceshipSpawner.cs" />
+     <Compile Include="Assets\Scripts\DestroyWithPieces.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
