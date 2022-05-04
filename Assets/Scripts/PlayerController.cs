@@ -7,10 +7,13 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float health;
     public Image healthBar;
+    public GameObject topExhaust;
+    public GameObject downExhaust;
     private bool downPressed;
     private bool upPressed;
     private bool downToched;
     private bool upToched;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -39,16 +42,21 @@ public class PlayerController : MonoBehaviour
     {
       upPressed = true;
       downToched = false;
+      downExhaust.SetActive(true);
+
     }
     public void OnButtonDown()
     {
       downPressed = true;
       upToched = false;
+      topExhaust.SetActive(true);
     }
     public void Stay()
     {
       downPressed = false;
       upPressed = false;
+      downExhaust.SetActive(false);
+      topExhaust.SetActive(false);
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
