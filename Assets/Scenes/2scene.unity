@@ -4960,10 +4960,10 @@ MonoBehaviour:
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 0.9876856, g: 0.7688679, b: 1, a: 1}
-  m_Intensity: 1.1
+  m_Color: {r: 1, g: 0.83671445, b: 0.504717, a: 1}
+  m_Intensity: 1
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 00000000210ed8a931f7b30779b373c231c8e4b9
+  m_ApplyToSortingLayers: 0000000031f7b30731c8e4b979b373c2210ed8a9
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -8766,7 +8766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1488241507}
   - component: {fileID: 1488241506}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BCG_mover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8787,9 +8787,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectMode: 0
   firstBG: {fileID: 1819689549}
-  firstBGSpeed: 0.002
+  firstBGSpeed: 0.01
   secondBG: {fileID: 629738325}
-  secondBGSpeed: 0.02
+  secondBGSpeed: 0.08
   thirdBG: {fileID: 0}
   thirdBGSpeed: 0.1
 --- !u!4 &1488241507
@@ -14455,8 +14455,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819689548}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.01, y: -0, z: 12.016}
-  m_LocalScale: {x: 10.408388, y: 5.7927365, z: 0.103191964}
+  m_LocalPosition: {x: 4.53, y: -0.03, z: 12.016}
+  m_LocalScale: {x: 18.958353, y: 5.290207, z: 0.15318578}
   m_Children: []
   m_Father: {fileID: 1488241507}
   m_RootOrder: 0
